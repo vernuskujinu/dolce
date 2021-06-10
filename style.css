@@ -1,0 +1,18 @@
+ul, li {
+    list-style: none;
+  }
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+.header_item {
+  margin-left: 27px;
+}
+.header_icon {
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+
+}
