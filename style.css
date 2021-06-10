@@ -1,3 +1,12 @@
+/* poppins-300 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+       url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 /* manrope-200 - cyrillic */
 @font-face {
   font-family: 'Manrope';
@@ -79,6 +88,13 @@ ul, li {
   list-style: none;
   text-decoration: none;
   color: #000000;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  letter-spacing: 0.02em;
 }
 .wrapper {
   max-width: 1440px;
@@ -87,6 +103,17 @@ ul, li {
 .intro_title {
   margin-top: 100px;
   margin-left: 50px; 
+  width: 630px;
+  height: 168px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #2C2D30;
 }
 .intro_btn {
   margin: 40px;
@@ -94,8 +121,13 @@ ul, li {
   height: 66px;
   left: 315px;
   top: 496px;
-  color: white;
   background: #2C2D30;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
 
 .map_spot {
