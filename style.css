@@ -185,3 +185,22 @@ ul, li {
   letter-spacing: 0.01em;
   color: #000000;
 }
+.menu_title {
+font-family: Manrope;
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 63px;
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+margin-left:600px;
+}
+.coffee {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #343434;
+}
