@@ -104,7 +104,6 @@ body {
   left: 324px;
   top: 245px;
   margin-top: 120px;
-  
 }
 .button {
   width: 260px;
@@ -127,7 +126,7 @@ body {
   color: #000000;
   margin-bottom: 150px;
   }
-  .info_title {
+  .info_title_one {
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
@@ -135,12 +134,58 @@ body {
   line-height: 49px;
   letter-spacing: 0.02em;
   color: #000000;
+  margin-left: 50px;
   }
-  .info_subtitle {
+  .info_subtitle_one {
   font-family: Manrope;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   color: #343434;
+  width: 375px;
+  height: 224px;
+  margin-left: 50px;
+}
+.info_title_two {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 49px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin-left: 50px;
   }
+.info_subtitle_two {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #343434;
+  width: 375px;
+  height: 224px;
+  margin-left: 50px;
+}
+.info_image_one {
+  margin: 0 auto;
+}
+.info_image_two {
+  width: 423px;
+height: 565px;
+left: 425px;
+top: 2609px;
+}
+.menu_title {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin: 150px; 
+}
