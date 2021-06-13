@@ -74,16 +74,9 @@
 ul, li {
     list-style: none;
 }
-.header {
-  background-color: white;
-  margin-left: 120px;
-}
-body {
-  max-width: 1440px;
-  background-color: white;
-}
-.container-fluid {
-  background-color: white;
+.navbar-brand {
+  margin-left: 50px;
+  margin-bottom: 10px;
 }
 .nav-item {
   font-family: Manrope;
@@ -93,7 +86,7 @@ body {
   line-height: 25px;
   letter-spacing: 0.02em;
   color: #000000;
-  margin-left: 100px;
+  margin-left: 140px;
 }
 .intro_title {
   font-family: Manrope;
@@ -120,6 +113,13 @@ body {
 .background_image {
   width: 100%;
   margin-top: 170px;
+}
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 .about_title {
   margin-top: 150px;
@@ -214,4 +214,18 @@ top: 2609px;
 }
 .menu_item {
   margin-left: 30px;
+}
+.menu_button {
+  width: 330px;
+  height: 63px;
+  border: 2px solid #303030;
+  box-sizing: border-box;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #1F1F1F;
+  text-align: center;
+  margin-left: 300px;
 }
