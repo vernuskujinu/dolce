@@ -103,6 +103,7 @@ ul, li {
   left: 324px;
   top: 245px;
   margin-top: 120px;
+  max-width: 100%;
 }
 .button {
   width: 260px;
@@ -161,7 +162,6 @@ ul, li {
   line-height: 49px;
   letter-spacing: 0.02em;
   color: #000000;
-  margin-left: 50px;
   }
 .info_subtitle_two {
   font-family: Manrope;
@@ -172,16 +172,14 @@ ul, li {
   color: #343434;
   width: 375px;
   height: 224px;
-  margin-left: 50px;
 }
 .info_image_one {
-  margin: 0 auto;
+  margin-top: 100px;
+  margin-left: 50px;
 }
 .info_image_two {
-  width: 423px;
-height: 565px;
-left: 425px;
-top: 2609px;
+  margin-top: 100px;
+  margin-right: 20px;
 }
 .menu_title {
   font-family: Manrope;
