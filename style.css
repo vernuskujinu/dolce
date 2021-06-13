@@ -74,11 +74,16 @@
 ul, li {
     list-style: none;
 }
+.header {
+  background-color: white;
+  margin-left: 120px;
+}
 body {
   max-width: 1440px;
+  background-color: white;
 }
-.navbar {
-  margin: 0, auto;
+.container-fluid {
+  background-color: white;
 }
 .nav-item {
   font-family: Manrope;
@@ -88,6 +93,7 @@ body {
   line-height: 25px;
   letter-spacing: 0.02em;
   color: #000000;
+  margin-left: 100px;
 }
 .intro_title {
   font-family: Manrope;
