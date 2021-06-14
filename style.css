@@ -115,12 +115,10 @@ ul, li {
   width: 100%;
   margin-top: 170px;
 }
-.about {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: space-between;
-  margin-bottom: 100px;
+.col_info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 15px;
 }
 .about_title {
   margin-top: 150px;
@@ -141,7 +139,6 @@ ul, li {
   line-height: 49px;
   letter-spacing: 0.02em;
   color: #000000;
-  margin-left: 50px;
   }
   .info_subtitle_one {
   font-family: Manrope;
@@ -152,7 +149,7 @@ ul, li {
   color: #343434;
   width: 375px;
   height: 224px;
-  margin-left: 50px;
+  margin-bottom: 20px;
 }
 .info_title_two {
   font-family: Manrope;
@@ -172,14 +169,6 @@ ul, li {
   color: #343434;
   width: 375px;
   height: 224px;
-}
-.info_image_one {
-  margin-top: 100px;
-  margin-left: 50px;
-}
-.info_image_two {
-  margin-top: 100px;
-  margin-right: 20px;
 }
 .menu_title {
   font-family: Manrope;
