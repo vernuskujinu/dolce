@@ -149,7 +149,6 @@ ul, li {
   color: #343434;
   width: 375px;
   height: 224px;
-  margin-bottom: 20px;
 }
 .info_title_two {
   font-family: Manrope;
@@ -214,5 +213,9 @@ ul, li {
   line-height: 33px;
   color: #1F1F1F;
   text-align: center;
+  margin-left: 300px;
+}
+.menu_img {
+  margin: 150px;
   margin-left: 300px;
 }
