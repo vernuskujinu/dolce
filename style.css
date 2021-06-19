@@ -219,3 +219,24 @@ ul, li {
   margin: 150px;
   margin-left: 300px;
 }
+.coffee_title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+.btn_coffee {
+  margin: 100px;
+  margin-left: 350px;
+  width: 295px;
+  height: 66px;
+  background:#2C2D30;
+  color: white;
+  font-family: manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
