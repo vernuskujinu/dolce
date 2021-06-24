@@ -131,7 +131,7 @@ ul, li {
   color: #000000;
   margin-bottom: 150px;
   }
-  .info_title_one {
+.info_title_one {
   font-family: Manrope;
   font-style: normal;
   font-weight: 500;
@@ -140,7 +140,7 @@ ul, li {
   letter-spacing: 0.02em;
   color: #000000;
   }
-  .info_subtitle_one {
+.info_subtitle_one {
   font-family: Manrope;
   font-style: normal;
   font-weight: 300;
@@ -240,6 +240,12 @@ ul, li {
   font-size: 22px;
   line-height: 30px;
 }
+.menu_button {
+  margin-top: 150px;
+}
 .footer {
   background-image: url('/assets/image\ 19.jpg');
+  margin-top: 150px;
+  width: 1091px;
+  height: 450px;
 }
