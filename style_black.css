@@ -79,3 +79,38 @@ body, h1, h2, h3, h4, h5, h6, p, li {
 li {
     list-style: none;
 }
+ /* start style */
+ .navbar-brand {
+  padding-right: 200px;
+  padding-left: 100px;
+ }
+ .nav-item {
+   margin-left: 50px;
+ } 
+.title_intro {
+  width: 630px;
+  height: 168px;
+  margin-left: 70px;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+}
+.buttons {
+  display: flex;
+}
+.btn_about {
+  width: 400px;
+  height: 66px;
+  left: 315px;
+  top: 496px;
+  background-color: #2C2D30;
+  color: black;
+  margin-left: 45px;
+  margin-right: 40px;
+}
+.btn-light {
+  width: 300px;
+  height: 60px;
+  border: 2px solid #303030;
+}
