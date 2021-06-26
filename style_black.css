@@ -70,12 +70,11 @@
          url('../fonts/manrope-v4-cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/manrope-v4-cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-  html, body, div, .container, .container-fluid {
-    background: #0D0D0D;
-  }
+html {
+  overflow-x:hidden;
+}
 body, h1, h2, h3, h4, h5, h6, p, li {
     font-family: Manrope;
-    color: #FFFFFF;
 }
 li {
     list-style: none;
