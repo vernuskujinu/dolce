@@ -122,8 +122,14 @@ li {
   margin-right: 40px;
 }
 .btn-light {
-  width: 150px;
-  height: 60px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  color: #1F1F1F;
+  border: 2px solid #303030;
+  box-sizing: border-box;
 }
 .map_button {
   position: absolute;
@@ -132,6 +138,14 @@ li {
   left: 340px;
   top: 360px;
   background: transparent;
+  border: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
 .coffee_button {
   width: 295px;
@@ -140,9 +154,11 @@ li {
   top: 6169px;
   background: #2C2D30;
 }
-.btn_coffee {
-  width: 190px;
-  height: 48.23px;
-  border: 2px solid #303030;
-  box-sizing: border-box;
+.btn-dark {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFFFFF;
 }
