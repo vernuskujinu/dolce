@@ -145,6 +145,16 @@ li {
   letter-spacing: 0.02em;
   color: #000000;
 }
+@media screen and (max-width:375px) {
+  .map_button {
+    width: 250px;
+    height: 66px;
+    left: 60px;
+    top: 330px;
+    background-color: transparent;
+  }
+  
+}
 .coffee_button {
   width: 295px;
   height: 66px;
