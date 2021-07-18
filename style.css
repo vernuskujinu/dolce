@@ -1,253 +1,175 @@
 /* poppins-300 - latin */
 @font-face {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 300;
-  src: local(''),
-       url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/poppins-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-200 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-300 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-regular - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-500 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-600 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-700 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* manrope-800 - cyrillic */
+  @font-face {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/manrope-v4-cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/manrope-v4-cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+html {
+  overflow-x:hidden;
 }
-/* manrope-200 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 200;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+body, h1, h2, h3, h4, h5, h6, p, li {
+    font-family: Manrope;
 }
-/* manrope-300 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 300;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* manrope-regular - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 400;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* manrope-500 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 500;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* manrope-600 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 600;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* manrope-700 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 700;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-/* manrope-800 - cyrillic */
-@font-face {
-  font-family: 'Manrope';
-  font-style: normal;
-  font-weight: 800;
-  src: local(''),
-       url('../fonts/manrope-v4-cyrillic-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/manrope-v4-cyrillic-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-body {
-  font-family: Manrope;
-}
-ul, li {
+li {
     list-style: none;
 }
-.navbar-brand {
-  margin-left: 50px;
-  margin-bottom: 10px;
-}
-.nav-item {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  margin-left: 140px;
-}
-.intro_title {
-  font-family: Manrope;
-  font-style: normal;
+ /* start style */
+ .navbar-brand {
+  padding-right: 200px;
+  padding-left: 100px;
+ }
+ .nav-item {
+   margin-left: 50px;
+ } 
+.title_intro {
+  width: 630px;
+  height: 168px;
+  margin-left: 70px;
   font-weight: bold;
   font-size: 46px;
   line-height: 63px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.02em;
-  color: #000000;
-  width: 630px;
-  height: 168px;
-  left: 324px;
-  top: 245px;
-  margin-top: 120px;
-  max-width: 100%;
 }
-.button {
+@media (max-width: 768px) {
+  .title_intro {
+  width: 300px;
+  height: 66px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  margin-bottom: 30px;
+  }
+}
+.buttons {
+  display: flex;
+}
+.btn_about {
   width: 260px;
   height: 66px;
   left: 315px;
   top: 496px;
+  background-color: #2C2D30;
+  color: black;
+  margin-left: 45px;
+  margin-right: 40px;
 }
-.background_image {
-  width: 100%;
-  margin-top: 170px;
-}
-.col_info {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 15px;
-}
-.about_title {
-  margin-top: 150px;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 54px;
-  text-align: center;
-  color: #000000;
-  margin-bottom: 150px;
-  }
-.info_title_one {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 49px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  }
-.info_subtitle_one {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #343434;
-  width: 375px;
-  height: 224px;
-}
-.info_title_two {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 49px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  }
-.info_subtitle_two {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #343434;
-  width: 375px;
-  height: 224px;
-}
-.menu_title {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 46px;
-  line-height: 63px;
-  letter-spacing: 0.02em;
-  color: #000000;
-  margin: 150px; 
-}
-.drink_menu {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  color: #343434;
-}
-.menu_item {
-  font-family: Manrope;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 49px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-.menu_item {
-  margin-left: 30px;
-}
-.menu_button {
-  width: 330px;
-  height: 63px;
-  border: 2px solid #303030;
-  box-sizing: border-box;
+.btn-light {
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 33px;
   color: #1F1F1F;
-  text-align: center;
-  margin-left: 300px;
+  border: 2px solid #303030;
+  box-sizing: border-box;
 }
-.menu_img {
-  margin: 150px;
-  margin-left: 300px;
-}
-.coffee_title {
+.map_button {
+  position: absolute;
+  width: 292px;
+  height: 66px;
+  left: 340px;
+  top: 300px;
+  font-family: Manrope;
   font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 38px;
-  text-align: center;
-  letter-spacing: 0.01em;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #000000;
 }
-.btn_coffee {
-  margin: 100px;
-  margin-left: 350px;
+@media screen and (max-width:375px) {
+  .map_button {
+    width: 250px;
+    height: 66px;
+    left: 60px;
+    top: 330px;
+    background-color: transparent;
+  }
+  .img_title {
+    margin-top: 50px;
+  }
+  
+}
+.coffee_button {
   width: 295px;
   height: 66px;
-  background:#2C2D30;
-  color: white;
-  font-family: manrope;
+  left: 813px;
+  top: 6169px;
+  background: #2C2D30;
+}
+.btn-dark {
+  font-family: Manrope;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
-}
-.menu_button {
-  margin-top: 150px;
-}
-.footer {
-  background-image: url('/assets/image\ 19.jpg');
-  margin-top: 150px;
-  width: 1091px;
-  height: 450px;
+  color: #FFFFFF;
 }
