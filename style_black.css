@@ -134,11 +134,9 @@ li {
 .map_button {
   position: absolute;
   width: 292px;
-  height: 25px;
+  height: 66px;
   left: 340px;
-  top: 360px;
-  background: transparent;
-  border: none;
+  top: 300px;
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
