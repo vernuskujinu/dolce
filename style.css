@@ -129,7 +129,6 @@ li {
   line-height: 33px;
   color: #1F1F1F;
   border: 2px solid #303030;
-  box-sizing: border-box;
 }
 .map_button {
   position: absolute;
@@ -172,4 +171,7 @@ li {
   font-size: 22px;
   line-height: 30px;
   color: #FFFFFF;
+}
+.all_link {
+  text-decoration: none;
 }
