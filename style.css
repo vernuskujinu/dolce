@@ -73,8 +73,12 @@
 html {
   overflow-x:hidden;
 }
-body, h1, h2, h3, h4, h5, h6, p, li {
-    font-family: Manrope;
+body, h1, h2, h4, h5, h6, p, li {
+  font-family: 'Manrope', sans-serif;
+}
+h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
 }
 li {
     list-style: none;
@@ -88,6 +92,7 @@ li {
    margin-left: 50px;
  } 
 .title_intro {
+  font-family: 'Manrope', sans-serif;
   width: 630px;
   height: 168px;
   margin-left: 70px;
@@ -98,25 +103,27 @@ li {
 }
 @media (max-width: 768px) {
   .title_intro {
-    width: 300px;
-height: 66px;
-margin-left: 46px;
-top: 114px;
+  font-family: 'Manrope', sans-serif;
+  width: 300px;
+  height: 66px;
+  margin-left: 46px;
+  top: 114px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
 
-font-family: Manrope;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 33px;
-display: flex;
-align-items: center;
-letter-spacing: 0.02em;
-
-color: #000000;
+  color: #000000;
   }
 }
 .buttons {
   display: flex;
+}
+.about_text {
+  font-family: 'Poppins', sans-serif;
 }
 .btn_about {
   width: 260px;
@@ -124,7 +131,7 @@ color: #000000;
   left: 315px;
   top: 496px;
   background-color: #2C2D30;
-  color: black;
+  width: 700;
   margin-left: 45px;
   margin-right: 40px;
 }
